@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5C1C5FA7255E47F00034354B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C5FA6255E47F00034354B /* AppDelegate.swift */; };
 		5C1C5FA9255E47F00034354B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C5FA8255E47F00034354B /* SceneDelegate.swift */; };
-		5C1C5FAB255E47F00034354B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C5FAA255E47F00034354B /* ViewController.swift */; };
+		5C1C5FAB255E47F00034354B /* LineChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C5FAA255E47F00034354B /* LineChartController.swift */; };
 		5C1C5FAE255E47F00034354B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1C5FAC255E47F00034354B /* Main.storyboard */; };
 		5C1C5FB0255E47F10034354B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1C5FAF255E47F10034354B /* Assets.xcassets */; };
 		5C1C5FB3255E47F10034354B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1C5FB1255E47F10034354B /* LaunchScreen.storyboard */; };
+		A410FB365E186E27C861C6CB /* Pods_helloChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D6E35F6CBB0856688D0286 /* Pods_helloChart.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39FB0FA330E279EC9F9148CB /* Pods-helloChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloChart.debug.xcconfig"; path = "Target Support Files/Pods-helloChart/Pods-helloChart.debug.xcconfig"; sourceTree = "<group>"; };
 		5C1C5FA3255E47F00034354B /* helloChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1C5FA6255E47F00034354B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C1C5FA8255E47F00034354B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C1C5FAA255E47F00034354B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C1C5FAA255E47F00034354B /* LineChartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartController.swift; sourceTree = "<group>"; };
 		5C1C5FAD255E47F00034354B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C1C5FAF255E47F10034354B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C1C5FB2255E47F10034354B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C1C5FB4255E47F10034354B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D6E35F6CBB0856688D0286 /* Pods_helloChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helloChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8798CAA841FA92570FF0DC5 /* Pods-helloChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloChart.release.xcconfig"; path = "Target Support Files/Pods-helloChart/Pods-helloChart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A410FB365E186E27C861C6CB /* Pods_helloChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				5C1C5FA5255E47F00034354B /* helloChart */,
 				5C1C5FA4255E47F00034354B /* Products */,
+				8D554E3B9C73549130AA8DF0 /* Pods */,
+				A02D494689563FC5627B72A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +65,30 @@
 			children = (
 				5C1C5FA6255E47F00034354B /* AppDelegate.swift */,
 				5C1C5FA8255E47F00034354B /* SceneDelegate.swift */,
-				5C1C5FAA255E47F00034354B /* ViewController.swift */,
+				5C1C5FAA255E47F00034354B /* LineChartController.swift */,
 				5C1C5FAC255E47F00034354B /* Main.storyboard */,
 				5C1C5FAF255E47F10034354B /* Assets.xcassets */,
 				5C1C5FB1255E47F10034354B /* LaunchScreen.storyboard */,
 				5C1C5FB4255E47F10034354B /* Info.plist */,
 			);
 			path = helloChart;
+			sourceTree = "<group>";
+		};
+		8D554E3B9C73549130AA8DF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39FB0FA330E279EC9F9148CB /* Pods-helloChart.debug.xcconfig */,
+				E8798CAA841FA92570FF0DC5 /* Pods-helloChart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A02D494689563FC5627B72A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4D6E35F6CBB0856688D0286 /* Pods_helloChart.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C1C5FB7255E47F10034354B /* Build configuration list for PBXNativeTarget "helloChart" */;
 			buildPhases = (
+				A424795A097DC48DED66EDF8 /* [CP] Check Pods Manifest.lock */,
 				5C1C5F9F255E47F00034354B /* Sources */,
 				5C1C5FA0255E47F00034354B /* Frameworks */,
 				5C1C5FA1255E47F00034354B /* Resources */,
+				45EDFE6BFDD148B20E262DC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +158,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45EDFE6BFDD148B20E262DC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-helloChart/Pods-helloChart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-helloChart/Pods-helloChart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-helloChart/Pods-helloChart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A424795A097DC48DED66EDF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-helloChart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C1C5F9F255E47F00034354B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C1C5FAB255E47F00034354B /* ViewController.swift in Sources */,
+				5C1C5FAB255E47F00034354B /* LineChartController.swift in Sources */,
 				5C1C5FA7255E47F00034354B /* AppDelegate.swift in Sources */,
 				5C1C5FA9255E47F00034354B /* SceneDelegate.swift in Sources */,
 			);
@@ -283,11 +351,13 @@
 		};
 		5C1C5FB8255E47F10034354B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FB0FA330E279EC9F9148CB /* Pods-helloChart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = helloChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,17 +365,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Rocky.helloChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5C1C5FB9255E47F10034354B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8798CAA841FA92570FF0DC5 /* Pods-helloChart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = helloChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Rocky.helloChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
